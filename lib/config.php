@@ -60,10 +60,10 @@ str => (boolean) true;
 
 // 请按照需求更改以下内容
 $config = [
-    'kw'       => "吧名",
-    'CLI'      => false,
+    'kw'       => "",
+    'CLI'      => true,
     'interval' => 60 * 2, //120 s
-    'bduss'    => '你的bduss',
+    'bduss'    => '',
     'wap'      => true,
     'block'    => false,
     'days'     => 1,

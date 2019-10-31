@@ -37,7 +37,7 @@ class cloudDel
             die('-1: occour an ERROR');
         }
         $f = $this->getContents();
-        if (['error_code'] == 0) {
+        if ($f['error_code'] != 0) {
             $tip = '获取贴子列表失败,请稍候再试!' . date('y-m-d H:i:s', time()) . "\n";
             $this->output($tip);
             return;
