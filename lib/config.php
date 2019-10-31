@@ -16,7 +16,7 @@
 
 以CLI模式运行，同时需设置INTERVAL参数。如果不理解，请勿修改。默认false
 CLI      => true;
-interval => 60 * ; //2min
+interval => 60 * 2 ; //2min
 
 具有管理身份的BDUSS，建议语音小编
 bduss => ''
@@ -60,10 +60,10 @@ str => (boolean) true;
 
 // 请按照需求更改以下内容
 $config = [
-    'kw'       => "",
+    'kw'       => "吧名",
     'CLI'      => true,
-    'interval' => 60 * 2, //120 s
-    'bduss'    => '',
+    'interval' => 300 * 2, //10 min
+    'bduss'    => '你的BDUSS',
     'wap'      => true,
     'block'    => false,
     'days'     => 1,
